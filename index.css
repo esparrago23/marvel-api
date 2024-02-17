@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fondo {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(9, 74, 136);
+}
+
+.buttons{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 3vh;
+}
+.caja{
+    width: 100%;
+    flex-direction: column;
+    background:red;
+    column-count: 1
+
+}
+
+.card {
+    position: relative;
+    left: 37%;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 2%;
+    background-color: aqua;
+ 
+}
+
+.face {
+    transform: rotateY(0deg);
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    transform: rotateY(90deg);
+    background-color: red;
+    width: 1%;
+    height: 1%;
+}
+
+
+.imagenes {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+
+
+.text {
+    position: relative;
+    top:90%;
+    color: gold;
+    font-size: 30px;
+}
+
+.button{
+    position: relative;
+    left: 16.5%;
+    top:82%;
+}
+
+.button2{
+    position: relative;
+    left:20%;
+    top:87%;
+}
+.button3{
+    position: relative;
+    right: 55%;
+    top:87%;
+}
+.button4{
+    position: relative;
+    left:42%;
+    top:82.8%;
+}
+
+.button5{
+    position: relative;
+    left: 45%;
+    margin-top: 10%;
+}
+.characters{
+    position: relative;
+    top:12%;
+    width: 100%;
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.flex-container {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 850px;
+    font-size: 30px;
+}
+
+.space{
+    background-color: aqua;
+    flex-direction: column;
+    column-count: 5;
+    
+    column-gap:10px;
+    
+   
+    align-items: center;
+   
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: rgb(39, 42, 184);
+}
+
+.qwerty{
+    align-items: center;
+    flex-direction: row;
+    column-gap: 40px;
+    
+    margin-bottom: 1000px;
+    border: 2px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgba(91, 83, 83, 0.29);
+    width: 250px;
+    height: 135px;
+}
+
+.aaaa{
+    background-color: rgba(233, 26, 26, 0.29);
+
+}
+*/
